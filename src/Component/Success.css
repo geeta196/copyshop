@@ -1,0 +1,44 @@
+.success-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f6f3;
+}
+
+.success-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.success-box h2 {
+  color: green;
+  margin-bottom: 15px;
+}
+
+.success-box p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #6f4e37;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #55332b;
+}
+
+.btn-alt {
+  background: #444;
+}

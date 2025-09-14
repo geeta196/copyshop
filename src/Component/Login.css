@@ -1,0 +1,74 @@
+/* Full background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2e2b29; /* dark coffee background */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  color: #f5c469; /* golden */
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #fff;
+  color: #2e2b29;
+  font-size: 1rem;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #f5c469;
+  color: #2e2b29;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #fff;
+  color: #2e2b29;
+  border: 1px solid #f5c469;
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 15px;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+.signup-text a {
+  color: #f5c469;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signup-text a:hover {
+  text-decoration: underline;
+}

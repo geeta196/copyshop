@@ -1,0 +1,85 @@
+.menu {
+  padding: 20px 20px;
+  background-color: #2e2b29; /* coffee theme dark */
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px; /* slightly less */
+  color: #f3e5ab;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Grid Layout - 2 per row */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /* 2 columns */
+  gap: 15px; /* smaller gap */
+  justify-items: center;
+  padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .menu-grid {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
+
+.menu-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px; /* smaller padding */
+  width: 100%;
+  max-width: 280px; /* smaller max width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 150px; /* smaller height */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-card h3 {
+  font-size: 1.3rem;
+  margin: 8px 0;
+  color:black;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #f3e5ab;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-btn, .add-btn, .-btn {
+  background: #d4a373;
+  color: #2e2b29;
+  border: none;
+  padding: 8px 15px; /* smaller button padding */
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover, .add-btn:hover, .-btn:hover {
+  background: #b97a57;
+  color: #fff;
+}

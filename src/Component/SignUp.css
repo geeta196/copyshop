@@ -1,0 +1,84 @@
+/* Container background */
+.signUpcontainer {
+  background-color: #2e2b29; /* Coffee dark background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Signup Box */
+.signUpbox {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Title */
+.signUp-title {
+  font-size: 1.8rem;
+  color: #f5c469; /* Golden */
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.signUpbox input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #2e2b29;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.signUpbox input:focus {
+  border: 2px solid #f5c469;
+  box-shadow: 0 0 8px rgba(245, 196, 105, 0.8);
+}
+
+/* Submit Button */
+.signUpbtn {
+  width: 100%;
+  background: #f5c469;
+  color: #2e2b29;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.signUpbtn:hover {
+  background: #fff;
+  color: #2e2b29;
+  border: 1px solid #f5c469;
+}
+
+/* Already have account text */
+.login-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-text a {
+  color: #f5c469;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

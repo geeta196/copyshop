@@ -1,0 +1,74 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background: #2e2e2e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.home-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.home-content span {
+  color: #ffcc80;
+  font-weight: bold;
+}
+
+.explore-btn {
+  background: #f5c469;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.explore-btn:hover {
+  background: #f3f1f0;
+  transform: scale(1.05);
+}
+
+/* parent section full screen */
+.home {
+  display: flex;
+  align-items: center;   /* content vertical center */
+  justify-content: space-between;
+  height: 100vh;         /* पूर्ण स्क्रीन */
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.home-image {
+  flex: 1;
+  text-align: right;
+  min-width: 300px;
+  border-radius: 100%;
+}
+
+.home-image img {
+  width: 100%;             /* image takes full width of container */
+  max-width: 620px;        /* max width to avoid huge image */
+  height: 400px;           /* shorter height */
+  object-fit: cover;       /* crop to fit nicely */
+  border-radius: 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
