@@ -23,9 +23,8 @@ function ContactUs() {
           <p>+91 9876543210</p>
 
           <h3>✉️ Email</h3>
-          <p>coffeeshop@example.com</p>
+          <p>coffeeshop@nexonica.com</p>
 
-         
         </div>
 
         {/* Right Side: Form */}
